@@ -1,0 +1,90 @@
+.messageComponent {
+    display: flex;
+    align-items: end;
+    margin: 50px;
+    width: 300px;
+}
+
+.img {
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.messageBox .message, .messageBox .time {
+    margin: 0;
+}
+
+.message {
+    color: white;
+    display: inline;
+    word-wrap: break-word;
+}
+
+.time {
+    color: rgba(189, 183, 183, 0.46);
+    float: right;
+    padding: 10px 0 0 10px;
+}
+
+.name {
+    color: #7c73ab;
+    margin: 0 0 10px 0;
+}
+
+.mesAll {
+    display: flex;
+    align-items: end;
+}
+
+.tail {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgba(61, 61, 56, 1) 0);
+}
+
+.messageBox {
+    background-color: rgba(61, 61, 56, 1);
+    border-radius: 10px 10px 10px 0;
+    padding: 10px 20px;
+    max-width: 300px;
+}
+
+/*  second variant
+
+.messageBox {
+    background-color: #3d3d38;
+    border-radius: 10px;
+    position: relative;
+    z-index: 3;
+    padding: 10px 20px;
+    max-width: 300px;
+}
+
+.messageBox::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 20px;
+    background-color: #3d3d38;
+    left: -13px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.messageBox::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    left: -20px;
+    bottom: 0;
+    border-radius: 0 0 80px 0;
+}*/
+
+
+

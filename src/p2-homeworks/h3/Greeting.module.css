@@ -1,0 +1,16 @@
+.greeting > * {
+    margin: 5px 10px;
+}
+
+.errorMessage {
+    display: block;
+    color: #d2150d;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.btn {
+    padding: 2px 10px;
+}
