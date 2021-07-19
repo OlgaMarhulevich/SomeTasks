@@ -1,12 +1,25 @@
 .superInput {
+    border-radius: 4px;
+    font-size: inherit;
+}
 
+.input {
+    outline: none;
+}
+
+.divInput {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin: 5px 0;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border: 2px solid rgba(219, 20, 20, 0.5);
 }
 
 .error {
-    color: red;
+    color: #db1414;
+    margin: 5px 15px;
+    font-size: inherit;
 }

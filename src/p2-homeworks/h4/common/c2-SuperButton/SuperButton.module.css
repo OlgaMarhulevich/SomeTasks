@@ -1,7 +1,34 @@
 .default {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #4d89b6 #000 #17407d;
+    border-radius: 6px;
+    background: linear-gradient(#7095bb, #2f5b9a) #17407d;
+    margin: 5px;
+}
 
+.default:hover {
+    background: linear-gradient(#7095bb, #0e2f61) #7095bb;
+    cursor: pointer;
+}
+
+.default:active {
+    background: linear-gradient(#17407d, #7095bb) #17407d;
+}
+
+.default:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+.default:disabled:hover {
+    background: linear-gradient(#7095bb, #2f5b9a) #17407d;
 }
 
 .red {
-    background: red;
+    background: #e33838;
 }
