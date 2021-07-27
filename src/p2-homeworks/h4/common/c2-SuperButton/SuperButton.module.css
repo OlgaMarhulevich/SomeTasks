@@ -30,5 +30,15 @@
 }
 
 .red {
-    background: #e33838;
+    background: linear-gradient(#e33838, #af2525) #610e0e;
+    border-color: #e33838 #000 #610e0e;
+}
+
+.red:hover {
+    background: linear-gradient(#e33838, #610e0e) #e33838;
+    cursor: pointer;
+}
+
+.red:active {
+    background: linear-gradient(#610e0e, #e33838) #610e0e;
 }
