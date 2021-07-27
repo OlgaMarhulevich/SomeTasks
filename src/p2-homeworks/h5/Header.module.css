@@ -1,0 +1,38 @@
+.navlink {
+    text-decoration: none;
+    color: #1498d0;
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+.navlink:hover {
+    color: #d3aee8;
+}
+
+.navlink:active {
+    color: #5b2f73;
+}
+
+.active {
+    color: #9466af;
+}
+
+.arrow {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.navbar {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+
+    transition-duration: 500ms;
+    transform: translate(-310px);
+}
+
+.navbar:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
