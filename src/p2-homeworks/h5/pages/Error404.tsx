@@ -1,11 +1,11 @@
 import React from 'react'
+import s from './../Header.module.css'
 
 function Error404() {
     return (
-        <div>
-            <div>404</div>
-            <div>Page not found!</div>
-            <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
+        <div className={s.errorPage} >
+            <div>Sorry, this page does not exist. Try again!</div>
+            <img className={s.errorImg} src={'https://www.pngkit.com/png/full/930-9306497_4042x-graphics.png'}/>
         </div>
     )
 }
