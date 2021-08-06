@@ -13,14 +13,14 @@ function HW7() {
             homeworks 7
 
             {/*should work (должно работать)*/}
-            <div>
+            <div style={{margin: "10px 20px"}}>
                 <SuperSelect
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
                 />
             </div>
-            <div>
+            <div style={{margin: "30px 12px"}}>
                 <SuperRadio
                     name={'radio'}
                     options={arr}
