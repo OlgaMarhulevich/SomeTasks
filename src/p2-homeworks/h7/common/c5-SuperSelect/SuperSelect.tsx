@@ -4,8 +4,8 @@ import s from './SuperSelect.module.css'
 type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement>
 
 type SuperSelectPropsType = DefaultSelectPropsType & {
-    options?: Array<string>
-    onChangeOption?: (option: string) => void
+    options: Array<string>
+    onChangeOption: (option: string) => void
 }
 
 const SuperSelect: React.FC<SuperSelectPropsType> = (

@@ -1,5 +1,5 @@
 .dark {
-    background: dimgrey;
+    background: #313030;
 }
 
 .dark-text {
@@ -7,17 +7,25 @@
 }
 
 .red {
-    background: lightcoral;
+    background: #b91818;
 }
 
 .red-text {
-    color: aqua;
+    color: #efdbdb;
 }
 
-.some {
-    background: lightgreen;
+.blue {
+    background: #3290a9;
 }
 
-.some-text {
-    color: darkslateblue;
+.blue-text {
+    color: #0a267c;
+}
+
+.light {
+    background: #ffffff;
+}
+
+.light-text {
+    color: #27272a;
 }

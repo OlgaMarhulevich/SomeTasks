@@ -4,8 +4,8 @@ import s from './SuperRadio.module.css'
 type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 
 type SuperRadioPropsType = DefaultRadioPropsType & {
-    options?: Array<string>
-    onChangeOption?: (option: string) => void
+    options: Array<string>
+    onChangeOption: (option: string) => void
 }
 
 const SuperRadio: React.FC<SuperRadioPropsType> = (
@@ -24,20 +24,21 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     }
 
 
-    const mappedOptions: JSX.Element[] = options ? options.map((option, index) => (
-        <label key={name + '-' + index} className={s.label}>
-            <input
-                type={'radio'}
-                name={name}
-                value={option}
-                checked={option === value}
-                onChange={onChangeCallback}
-                className={s.radio + (className ? ' ' + className : '')}
-                {...restProps}
-            />
-            {option}
-        </label>
-    )) : []
+    const mappedOptions: JSX.Element[] = options ?
+        options.map((option, index) => (
+            <label key={name + '-' + index} className={s.label + (className ? ' ' + className : '')}>
+                <input
+                    type={'radio'}
+                    name={name}
+                    value={option}
+                    checked={option === value}
+                    onChange={onChangeCallback}
+                    className={s.radio + (className ? ' ' + className : '')}
+                    {...restProps}
+                />
+                {option}
+            </label>
+        )) : []
 
     return (
         <>

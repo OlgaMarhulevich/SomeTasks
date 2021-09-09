@@ -10,11 +10,9 @@
     background-color: #113f85;
     border: 1px solid #000000;
 }
-
 .radio:hover {
     background-color: #3768b4;
 }
-
 .label {
     cursor: pointer;
     font-size: 18px;
@@ -22,9 +20,13 @@
     border-radius: 7px;
     padding: 3px 15px 3px 3px;
     margin: 0 7px;
+    color: inherit;
 }
-
 .radio:checked {
+    background-color: #9829e1;
+    border: 1px solid #0b255b;
+}
+.radio:active {
     background-color: #9829e1;
     border: 1px solid #0b255b;
 }
