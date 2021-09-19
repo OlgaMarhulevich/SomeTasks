@@ -14,9 +14,7 @@ function App() {
         backgroundImage: `url(${def})`,
         color: '#d9f1ed',
     }
-
     const theme = useSelector<AppStateType, string>(state => state.theme.currentTheme)
-
     switch (theme) {
         case 'dark':
             customStyleApp = {
@@ -44,7 +42,6 @@ function App() {
             }
             break
     }
-
     const appStyles = {
         padding: 30,
         backgroundSize: 'cover',
