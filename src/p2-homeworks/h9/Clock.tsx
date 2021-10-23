@@ -34,8 +34,8 @@ function Clock() {
     const style = {
         display: 'flex',
         height: '30px',
-        width: '65px',
-        margin: '0 60px',
+        width: '100px',
+        margin: '10px 50px',
         alignItems: 'center',
         justifyContent: 'center'
     }
