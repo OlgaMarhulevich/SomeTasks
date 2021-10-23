@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/SomeTasksReact/static/css/main.55814f3a.chunk.css",
-    "main.js": "/SomeTasksReact/static/js/main.f4c449c9.chunk.js",
-    "main.js.map": "/SomeTasksReact/static/js/main.f4c449c9.chunk.js.map",
+    "main.css": "/SomeTasksReact/static/css/main.2bb92fd6.chunk.css",
+    "main.js": "/SomeTasksReact/static/js/main.b0558185.chunk.js",
+    "main.js.map": "/SomeTasksReact/static/js/main.b0558185.chunk.js.map",
     "runtime-main.js": "/SomeTasksReact/static/js/runtime-main.a350abb1.js",
     "runtime-main.js.map": "/SomeTasksReact/static/js/runtime-main.a350abb1.js.map",
     "static/js/2.220ffa9f.chunk.js": "/SomeTasksReact/static/js/2.220ffa9f.chunk.js",
     "static/js/2.220ffa9f.chunk.js.map": "/SomeTasksReact/static/js/2.220ffa9f.chunk.js.map",
     "index.html": "/SomeTasksReact/index.html",
-    "static/css/main.55814f3a.chunk.css.map": "/SomeTasksReact/static/css/main.55814f3a.chunk.css.map",
+    "static/css/main.2bb92fd6.chunk.css.map": "/SomeTasksReact/static/css/main.2bb92fd6.chunk.css.map",
     "static/js/2.220ffa9f.chunk.js.LICENSE.txt": "/SomeTasksReact/static/js/2.220ffa9f.chunk.js.LICENSE.txt",
     "static/media/blue.5f9e19d7.jpg": "/SomeTasksReact/static/media/blue.5f9e19d7.jpg",
+    "static/media/SuperCheckbox.module.css": "/SomeTasksReact/static/media/check-mark.b986fada.png",
     "static/media/dark.a8fd1df1.png": "/SomeTasksReact/static/media/dark.a8fd1df1.png",
     "static/media/default.9a60e9ba.jpg": "/SomeTasksReact/static/media/default.9a60e9ba.jpg",
     "static/media/light.3cdc09bc.jpg": "/SomeTasksReact/static/media/light.3cdc09bc.jpg",
@@ -19,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.a350abb1.js",
     "static/js/2.220ffa9f.chunk.js",
-    "static/css/main.55814f3a.chunk.css",
-    "static/js/main.f4c449c9.chunk.js"
+    "static/css/main.2bb92fd6.chunk.css",
+    "static/js/main.b0558185.chunk.js"
   ]
 }
